@@ -16,7 +16,10 @@ class Tally < Formula
       tally_dashboard.py tally_export.py timeline.py suggest_rules.py doctor.py
       bucket_server.py bucket-editor.html install_menubar.py
     ]
-    libexec.install scripts
+    # The release tarball nests everything under blakep-lms-Tally-<sha>/scripts/.
+    Dir.chdir("scripts") do
+      libexec.install scripts
+    end
     bin.install libexec/"tally.py" => "tally"
   end
 
