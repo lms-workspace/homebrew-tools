@@ -4,8 +4,8 @@
 class Tally < Formula
   desc "Local-first passive time tracking: watch windows, bucket time, export for invoicing"
   homepage "https://github.com/blakep-lms/Tally"
-  url "https://github.com/blakep-lms/Tally/releases/download/v0.2.0/tally-v0.2.0.tar.gz"
-  sha256 "44c0cc2722685870a7811ef383ab84921983ed13bfc879cfb71293073b765452"
+  url "https://github.com/blakep-lms/Tally/releases/download/v0.2.0/tally-v0.2.0-fixed.tar.gz"
+  sha256 "520f73afcfec72234ae5ef2c068b249ef297007ab1648830632c36ab1a4c00b4"
   license "MIT"
 
   depends_on "python@3.12"
