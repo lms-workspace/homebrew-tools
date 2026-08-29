@@ -17,7 +17,7 @@ class Tally < Formula
       bucket_server.py bucket-editor.html install_menubar.py
     ]
     libexec.install scripts
-    bin.install "scripts/tally.py" => "tally"
+    bin.install libexec/"tally.py" => "tally"
   end
 
   def post_install
