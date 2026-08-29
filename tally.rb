@@ -14,7 +14,7 @@ class Tally < Formula
     scripts = %w[
       tally.py watch.py store.py tally_setup.py tally_ctl.py tally_menu_v2.py
       tally_dashboard.py tally_export.py timeline.py suggest_rules.py doctor.py
-      bucket_server.py bucket-editor.html install_menubar.py
+      bucket_server.py bucket-editor.html
     ]
     # The release tarball nests everything under blakep-lms-Tally-<sha>/scripts/.
     Dir.chdir("scripts") do
